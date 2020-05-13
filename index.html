@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BROOM</title>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+        <style type="text/css">
+            @font-face{
+            font-family:'coochie';
+            src: url("fonts/coochie/coochie.eot"),
+            url("fonts/coochie/coochie.svg"),
+            url("fonts/coochie/coochie.ttf"),
+            url("fonts/coochie/coochie.woff");
+                }
+            *{
+                margin: 10px;
+                padding: 10px;
+            }
+            body>p{
+                position: fixed;
+                font-family: 'coochie';
+                font-size: 25vw;
+                color: darkred;  
+            }
+            div>h1,h2{
+                position: absolute;
+                color: darkred;
+                font-family: 'Domine', serif;
+            }
+
+            p[title="b1"]{
+                top: 0;
+                left: 0;    
+            }
+            p[title="b2"]{
+                top: -2%;
+                right: 0;
+                transform: rotate(180deg);
+                
+            }
+            p[title="r1"]{
+                top: 23%;
+                left: 20%;
+                font-size: 18vw;
+            }
+            p[title="r2"]{
+                top: 23%;
+                right: 20%;
+                transform: rotate(180deg);
+                font-size: 18vw;
+            }
+            p[title="o1"]{
+                top: 35%;
+                right: 35%;
+            }
+            p[title="o2"]{
+                bottom: 25%;
+                left: 20%;
+                transform: rotate(180deg);
+                font-size: 18vw;
+            }
+            p[title="o3"]{
+                bottom: 25%;
+                right: 20%;
+                font-size: 18vw;
+            }
+            p[title="m1"]{
+                bottom: 0;
+                left: 0;
+                transform: rotate(180deg);
+            }
+            p[title="m2"]{
+                bottom: 0%;
+                right: 0;
+            }
+            div>h1{
+                font-size: 20px;
+                left: -5px;
+                top: 10px;
+            }
+            
+            div>h2{
+                right: 0px;
+                top:-10px;
+                font-size: 110px;
+            }
+            div[title="vol1"]{
+                position: fixed;
+                width: 75px;
+                height: 20px;
+                top; 20px;
+                left: 40%;
+
+            }
+            div[title="vol2"]{
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                top; 20px;
+                right: 20px;
+                transform: rotate(180deg);
+                transform: scale(1,-1);
+            }
+            
+            div[title="no1"]{
+                position: fixed;
+                width: 40px;
+                height: 50px;
+                bottom: 13%;
+                left: 45%;
+            }
+            div[title="no2"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                bottom: 40%;
+                left: 0;
+                transform: rotate(180deg);
+            }       
+        </style>
+    </head>
+    <body style="background-color: tan">
+        <p title="b1">B</p>
+        <p title="b2">B</p>
+        <p title="r1">R</p>
+        <p title="r2">R</p>
+        <p title="o1">o</p>
+        <p title="o2">o</p>
+        <p title="o3">o</p>
+        <p title="m1">M</p>
+        <p title="m2">M</p>
+        
+    <div title="vol1"><h1>VOL.</h1><h2>6</h2></div>
+    <div title="vol2"><h1>VOL.</h1><h2>6</h2></div>
+    <div title="no1"><h1>NO.</h1><h2>1</h2></div>
+    <div title="no2"><h1>NO.</h1><h2>1</h2></div>
+    </body>
+</html>
